@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Linkedin Data Extracter",
+    "version": "1.0",
+    "description": "Get the profile data from given list of likedin profiles.",
+    "permissions": ["tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.linkedin.com/in/*"],
+            "js": ["content-script.js"]
+        }
+    ]
+}
