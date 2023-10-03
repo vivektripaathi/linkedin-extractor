@@ -1,4 +1,4 @@
-# Linkedin Ptofile Data EXtractor -  Extension
+# Linkedin Profile Data EXtractor -  Extension
 
 A simple Chrome extension that opens 3 hard coded linkedin URLs one by one and fetch data from each profile later closing the tab.
 
